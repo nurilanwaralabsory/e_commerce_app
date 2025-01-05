@@ -65,6 +65,64 @@ class _AppHomeScreenState extends State<AppHomeScreen> {
               height: 20,
             ),
             MyBanner(),
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: 20, vertical: 18),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    "Shop By Category",
+                    style: TextStyle(
+                        fontSize: 20,
+                        letterSpacing: 0,
+                        color: Colors.black87,
+                        fontWeight: FontWeight.w600),
+                  ),
+                  Text(
+                    "See All",
+                    style: TextStyle(
+                      fontSize: 16,
+                      letterSpacing: 0,
+                      color: Colors.black45,
+                    ),
+                  )
+                ],
+              ),
+            ),
+            // for category
+            // SingleChildScrollView(
+            //   scrollDirection: Axis.horizontal,
+            //   child: Row(
+            //     children: [
+            //       List.generate(category, generator)
+            //     ],
+            //   ),
+            // ),
+
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: 20, vertical: 18),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    "Shop By Category",
+                    style: TextStyle(
+                        fontSize: 20,
+                        letterSpacing: 0,
+                        color: Colors.black87,
+                        fontWeight: FontWeight.w600),
+                  ),
+                  Text(
+                    "See All",
+                    style: TextStyle(
+                      fontSize: 16,
+                      letterSpacing: 0,
+                      color: Colors.black45,
+                    ),
+                  )
+                ],
+              ),
+            )
           ],
         ),
       ),

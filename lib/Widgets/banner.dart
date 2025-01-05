@@ -59,7 +59,7 @@ class MyBanner extends StatelessWidget {
                 ),
                 MaterialButton(
                   onPressed: () {},
-                  color: Colors.black12,
+                  color: Colors.black,
                   child: Text(
                     "Shop Now",
                     style: TextStyle(
